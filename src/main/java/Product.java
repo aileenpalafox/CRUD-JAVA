@@ -1,8 +1,8 @@
 public class Product {
 
-    private String name,type,id;
+    private String name,type;
     private double weight,price;
-    private int quantity;
+    private int quantity,id;
 
     public String toString(){
         String productAtt="Product: "+this.name+"\nWeight: "+this.weight+"\nType: "
@@ -42,11 +42,11 @@ public class Product {
         this.price = price;
     }
 
-    public String getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
     }
 
